@@ -53,6 +53,9 @@ lining SLR data, dramatically boosting data comprehension,
 - torchvision==0.10.0
 - tqdm==4.40.2
 - transformers==4.11.3
+## Download Datasets
+- [Phoenix-2014](https://www-i6.informatik.rwth-aachen.de/~koller/RWTH-PHOENIX/)
+
 
 ## Data Preparation
 ### Exploited Datasets
