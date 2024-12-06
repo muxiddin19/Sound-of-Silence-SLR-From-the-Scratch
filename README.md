@@ -90,6 +90,5 @@ while it outputs temporal motion features.
 
 Left: Direction vector with eight different directions, plus zero (0, 0) vector, the initial point. 
 Right: Visualize the vectorization approach with a direction vector using only one keypoint.
-![image](https://github.com/user-attachments/assets/d9119f2b-c201-4c65-97a8-112205b99bbe)
 
 ![image](https://github.com/user-attachments/assets/5b0ad68f-39a1-47ba-84e3-45fdba1f0b33)
