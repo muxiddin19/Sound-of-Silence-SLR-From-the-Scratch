@@ -115,12 +115,24 @@ Right: Visualize the vectorization approach with a direction vector using only 
 ![image](https://github.com/user-attachments/assets/a9e8fe98-1476-4873-ae98-d9a0ee1927d2)
 
 ## Training Process
+### Training only single stream video, keypoint, doppler, or vector data)
+dataset=phoenix-2014 # phoenix-2014t / csl-daily
+python -m torch.distributed.launch --nproc_per_node 8 --use_env training.py --config experiments/configs/video.yaml  #for videos
+python -m torch.distributed.launch --nproc_per_node 8 --use_env training.py --config experiments/configs/keypoint.yaml  #for keypoints
+python -m torch.distributed.launch --nproc_per_node 8 --use_env training.py --config experiments/configs/doppler.yaml  #for keypoints
+python -m torch.distributed.launch --nproc_per_node 8 --use_env training.py --config experiments/configs/vector.yaml  #for keypoints
+
+### Multistream Training
+
+python -m torch.distributed.launch --nproc_per_node 8 --use_env training.py --config experiments/configs/multistream.yaml
 
 ## Resume Interrupted training
+python -m torch.distributed.launch --nproc_per_node 8 --use_env training.py --config experiments/configs/multistream.yaml --resume
 
 ## Testing Process
 
 ## Real time SLR
+python real_time.py
 
 ## Citation
 - The related citation will be updated soon.
