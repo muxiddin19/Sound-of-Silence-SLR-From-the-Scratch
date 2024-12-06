@@ -57,15 +57,20 @@ lining SLR data, dramatically boosting data comprehension,
 - [Phoenix-2014](https://www-i6.informatik.rwth-aachen.de/~koller/RWTH-PHOENIX/)
 - [Phoenix-2014T](https://www-i6.informatik.rwth-aachen.de/~koller/RWTH-PHOENIX-2014-T/)
 - [CSL-Daily](http://home.ustc.edu.cn/~zhouh156/dataset/csl-daily/)
-For extracting downloaded videofiles, you may run the given code:
+- For extracting downloaded videofiles, you may run the given code:
 - [Extract videofiles.](https://github.com/muxiddin19/Sound-of-Silence-Sign-Language-Recognition-From-the-Scratch/preprocess/preprocess_video.sh)
 ## Data Preparation
 ### Exploited Datasets
 - Phoenix-2014: A German sign language dataset with 1081 glosses.
 - Phoenix-2014T: An extension of Phoenix-2014, with 1066 glosses and 2887 German text entries.
 - CSL-Daily: A large-scale Chinese sign language dataset with 2000 glosses and 2343 text entries.
-### Video Data
 
+### Pretrained 
+- Models We provide pretrained models here. Download this directory and place it as pretrained_models. Specifically, the required pretrained models include:
+
+- s3ds_actioncls_ckpt: S3D backbone pretrained on Kinetics-400. [Thanks for their implementation!](https://github.com/kylemin/S3D)
+- s3ds_glosscls_ckpt: S3D backbone pretrained on Kinetics-400 and WLASL.
+- mbart_de / mbart_zh : pretrained language models used to initialize the translation network for German and Chinese, with weights from mbart-cc-25.
 
 ### Keypoint Data
 ![image](https://github.com/user-attachments/assets/8b79934d-dd96-472f-8103-0349f2f6a205)
