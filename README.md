@@ -26,28 +26,28 @@ lining SLR data, dramatically boosting data comprehension,
  adoption of explainable and high-performance SLR technologies.
 
 Dependencies
-absl-py==0.9.0
-numpy==1.18.1
-oauthlib==3.1.0
-omegaconf==2.1.1
-opencv-python==4.4.0.46
-pandas==1.0.3
-pillow==8.4.0
-portalocker==1.5.2
-protobuf==3.19.4
-py==1.8.1
-pyarrow==3.0.0
-pydot==1.4.2
-python-dateutil==2.8.1
-scikit-learn==0.22.2.post1
-tensorboard-data-server==0.6.1
-tensorboard-plugin-wit==1.8.0
-tensorflow==2.2.0
-tensorflow-estimator==2.2.0
-tokenizers==0.10.3
-torch==1.9.0
-torch-tb-profiler==0.2.1
-torchtext==0.5.0
-torchvision==0.10.0
-tqdm==4.40.2
-transformers==4.11.3
+- absl-py==0.9.0
+- numpy==1.18.1
+- oauthlib==3.1.0
+- omegaconf==2.1.1
+- opencv-python==4.4.0.46
+- pandas==1.0.3
+- pillow==8.4.0
+- portalocker==1.5.2
+- protobuf==3.19.4
+- py==1.8.1
+- pyarrow==3.0.0
+- pydot==1.4.2
+- python-dateutil==2.8.1
+- scikit-learn==0.22.2.post1
+- tensorboard-data-server==0.6.1
+- tensorboard-plugin-wit==1.8.0
+- tensorflow==2.2.0
+- tensorflow-estimator==2.2.0
+- tokenizers==0.10.3
+- torch==1.9.0
+- torch-tb-profiler==0.2.1
+- torchtext==0.5.0
+- torchvision==0.10.0
+- tqdm==4.40.2
+- transformers==4.11.3
