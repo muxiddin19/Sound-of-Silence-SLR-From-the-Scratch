@@ -63,9 +63,33 @@ lining SLR data, dramatically boosting data comprehension,
 
 
 ### Keypoint Data
+![image](https://github.com/user-attachments/assets/8b79934d-dd96-472f-8103-0349f2f6a205)
 
+
+### R-Tree indexing
+The R-Tree was applied to 2D human keypoints 
+to enhance the efficiency and robustness of keypoint data retrieval in SLR.
+ For each frame in a video, keypoints representing body parts (e.g., hands, face) are extracted. 
+These keypoints are typically in the format (x, y, c), where x and y are the spatial coordinates, and c is the confidence score.
+The R-Tree divides and indexes multi-dimensional data into Minimum Bounding Rectangles (MBRs). Each keypoint, defined by its (x, y, c) coordinates, is inserted into the R-Tree with a unique identifier. 
+This allows for rapid and efficient proximity searches.
+
+
+
+![image](https://github.com/user-attachments/assets/0a5ac44d-1890-436d-8176-96aae69c7e01)
 
 ### Doppler Data
+The number of input frames and output frames is consistent, 
+while it outputs temporal motion features.
+![image](https://github.com/user-attachments/assets/21c966de-ed89-450f-ba0d-22c4037ef9d7)
+
 
 
 ### Vector Data
+![image](https://github.com/user-attachments/assets/548586dd-ede9-48f7-baa0-0de65fb5be38)
+
+Left: Direction vector with eight different directions, plus zero (0, 0) vector, the initial point. 
+Right: Visualize the vectorization approach with a direction vector using only one keypoint.
+![image](https://github.com/user-attachments/assets/d9119f2b-c201-4c65-97a8-112205b99bbe)
+
+![image](https://github.com/user-attachments/assets/5b0ad68f-39a1-47ba-84e3-45fdba1f0b33)
