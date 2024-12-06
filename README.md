@@ -53,7 +53,7 @@ Dependencies
 - transformers==4.11.3
 
 Data Preparation
-   Exploited Datasets
+  # Exploited Datasets
 - Phoenix-2014: A German sign language dataset with 1081 glosses.
 - Phoenix-2014T: An extension of Phoenix-2014, with 1066 glosses and 2887 German text entries.
 - CSL-Daily: A large-scale Chinese sign language dataset with 2000 glosses and 2343 text entries.
