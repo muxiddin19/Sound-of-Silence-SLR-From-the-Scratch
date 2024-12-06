@@ -92,3 +92,30 @@ Left: Direction vector with eight different directions, plus zero (0, 0) vector,
 Right: Visualize the vectorization approach with a direction vector using only one keypoint.
 
 ![image](https://github.com/user-attachments/assets/5b0ad68f-39a1-47ba-84e3-45fdba1f0b33)
+
+![image](https://github.com/user-attachments/assets/53d76e0b-fb93-48eb-9c9f-81648fe1e4e9)
+
+![image](https://github.com/user-attachments/assets/5b077e95-b33e-4898-a74c-bb5b3e6f13a1)
+
+![image](https://github.com/user-attachments/assets/870c2cc6-19c6-4ebb-be73-a84e2890a979)
+
+### Bidirectional Lateral Interaction for MultiStream Inputs
+
+![image](https://github.com/user-attachments/assets/a9e8fe98-1476-4873-ae98-d9a0ee1927d2)
+
+## Training Process
+
+## Resume Interrupted training
+
+## Testing Process
+
+## Real time SLR
+
+## Citation
+- The related citation will be updated soon.
+
+## Acknowledment
+
+This repo is actively exploited https://github.com/muxiddin19/DDC3N-Doppler-Driven-C3D-Network-for-HAR, https://github.com/FangyunWei/SLRT/tree/main/TwoStreamNetwork, https://github.com/kaistmm/SlowFastSign and other related repos.
+
+Thanks to the original authors for their awesome works!
