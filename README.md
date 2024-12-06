@@ -24,6 +24,7 @@ lining SLR data, dramatically boosting data comprehension,
  untapped modalities. With the promise of further advancements,
  our work paves the way for the practical and widespread
  adoption of explainable and high-performance SLR technologies.
+![image](https://github.com/user-attachments/assets/2d8ca254-8bf2-4866-a102-ec0cfc194bc3)
 
 ## Dependencies
 - absl-py==0.9.0
