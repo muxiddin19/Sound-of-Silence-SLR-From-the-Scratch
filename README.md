@@ -1,4 +1,5 @@
 # Sound-of-Silence-Sign-Language-Recognition-From-the-Scratch
+## The repo is being updated
 ### This is repo for our paper submitted to IDE2025
 ![image](https://github.com/user-attachments/assets/d7f9e6bc-138a-4e15-9f65-9ff8e7d995d4)
  ## Abstract
@@ -131,8 +132,14 @@ python -m torch.distributed.launch --nproc_per_node 8 --use_env training.py --co
 
 ## Testing Process
 
+- The code is being updated
+
 ## Real time SLR
-python real_time.py
+
+For real-time SLR task just run below code:
+- python real_time.py
+
+  be sure that your camera is accessible from your terminal.
 
 ## Citation
 - The related citation will be updated soon.
