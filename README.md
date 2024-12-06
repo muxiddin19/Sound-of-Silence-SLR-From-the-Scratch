@@ -66,7 +66,7 @@ lining SLR data, dramatically boosting data comprehension,
 - CSL-Daily: A large-scale Chinese sign language dataset with 2000 glosses and 2343 text entries.
 
 ### Pretrained 
-- Models We provide pretrained models here. Download this directory and place it as pretrained_models. Specifically, the required pretrained models include:
+- Models We provide pretrained models [here](https://hkustconnect-my.sharepoint.com/:f:/g/personal/rzuo_connect_ust_hk/EolDU7j15xROncGg8QqLpkABn9mFEfriS0owcyr048nyXg?e=jHdxlg). Download this directory and place it as pretrained_models. Specifically, the required pretrained models include:
 
 - s3ds_actioncls_ckpt: S3D backbone pretrained on Kinetics-400. [Thanks for their implementation!](https://github.com/kylemin/S3D)
 - s3ds_glosscls_ckpt: S3D backbone pretrained on Kinetics-400 and WLASL.
@@ -75,6 +75,7 @@ lining SLR data, dramatically boosting data comprehension,
 ### Keypoint Data
 ![image](https://github.com/user-attachments/assets/8b79934d-dd96-472f-8103-0349f2f6a205)
 
+ Exploite human keypoints for three datasets, [Phoenix-2014](https://hkustconnect-my.sharepoint.com/:u:/g/personal/rzuo_connect_ust_hk/EX4hzndQCiNGlZTlQymJlKgB9l3tBHi2ihKh0b1nrO-4Lg?e=QXUrrP), [Phoenix-2014T](https://hkustconnect-my.sharepoint.com/:u:/g/personal/rzuo_connect_ust_hk/EdCvVpXswSJKlj4FUYUJJ9EBm1cqFBOBMloVRqSTpng7dQ?e=EH6YfR), and [CSL-Daily](https://hkustconnect-my.sharepoint.com/:u:/g/personal/rzuo_connect_ust_hk/Eanp_XYZnmVNiqRlNIQJf6kBkIDst176O2vkPNZDGnmbWw?e=0P8aiq), pre-extracted by HRNet, and can be downloaded and place them under data/phoenix-2014(phoenix-2014t or csl-daily).
 
 ### R-Tree indexing
 The R-Tree was applied to 2D human keypoints 
