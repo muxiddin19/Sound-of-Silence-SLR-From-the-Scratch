@@ -119,3 +119,6 @@ Right: Visualize the vectorization approach with a direction vector using only 
 This repo is actively exploited https://github.com/muxiddin19/DDC3N-Doppler-Driven-C3D-Network-for-HAR, https://github.com/FangyunWei/SLRT/tree/main/TwoStreamNetwork, https://github.com/kaistmm/SlowFastSign and other related repos.
 
 Thanks to the original authors for their awesome works!
+
+## Contacts
+For any questions, feel free to contact: trinity@inha.ac.kr, muhiddin1979@inha.edu.
