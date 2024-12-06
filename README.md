@@ -1,7 +1,7 @@
 # Sound-of-Silence-Sign-Language-Recognition-From-the-Scratch
-This is repo for our paper submitted to IDE2025
+### This is repo for our paper submitted to IDE2025
 ![image](https://github.com/user-attachments/assets/d7f9e6bc-138a-4e15-9f65-9ff8e7d995d4)
- Abstract
+ ## Abstract
  In this paper, we revolutionize the landscape of sign
  language recognition (SLR) with direction vector-based cutting
 edge keypoint data vectorization techniques and a powerful mul
@@ -25,7 +25,7 @@ lining SLR data, dramatically boosting data comprehension,
  our work paves the way for the practical and widespread
  adoption of explainable and high-performance SLR technologies.
 
-Dependencies
+## Dependencies
 - absl-py==0.9.0
 - numpy==1.18.1
 - oauthlib==3.1.0
@@ -52,8 +52,8 @@ Dependencies
 - tqdm==4.40.2
 - transformers==4.11.3
 
-Data Preparation
-  # Exploited Datasets
+## Data Preparation
+  ### Exploited Datasets
 - Phoenix-2014: A German sign language dataset with 1081 glosses.
 - Phoenix-2014T: An extension of Phoenix-2014, with 1066 glosses and 2887 German text entries.
 - CSL-Daily: A large-scale Chinese sign language dataset with 2000 glosses and 2343 text entries.
