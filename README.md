@@ -55,8 +55,10 @@ lining SLR data, dramatically boosting data comprehension,
 - transformers==4.11.3
 ## Download Datasets
 - [Phoenix-2014](https://www-i6.informatik.rwth-aachen.de/~koller/RWTH-PHOENIX/)
-
-
+- [Phoenix-2014T](https://www-i6.informatik.rwth-aachen.de/~koller/RWTH-PHOENIX-2014-T/)
+- [CSL-Daily](http://home.ustc.edu.cn/~zhouh156/dataset/csl-daily/)
+For extracting downloaded videofiles, you may run the given code:
+- [Extract videofiles.](https://github.com/muxiddin19/Sound-of-Silence-Sign-Language-Recognition-From-the-Scratch/preprocess/preprocess_video.sh)
 ## Data Preparation
 ### Exploited Datasets
 - Phoenix-2014: A German sign language dataset with 1081 glosses.
